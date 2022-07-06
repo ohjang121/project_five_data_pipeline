@@ -6,6 +6,8 @@ Objective: Build a data pipeline for a music app (Sparkify) using Airflow and AW
 
 ### Dags
 
+![sparkify_dag](https://github.com/ohjang121/project_five_data_pipeline/blob/main/sparkify_dag.png)
+
 `sparkify_dag.py`: defines Sparkify data pipeline DAG with relevant tasks and dependencies. Exists in the `dags` directory within the main `airflow` directory.
 
 `create_tables.sql`: contains SQL queries to create staging and production tables in Redshift. `sparkify_dag.py` is currently designed to take `create_tables.sql` as an input in the same directory and create empty shell tables all at once.
