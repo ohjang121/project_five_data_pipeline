@@ -4,9 +4,9 @@ Objective: Build a data pipeline for a music app (Sparkify) using Airflow and AW
 
 ## Data pipeline structure
 
-### Dags
-
 ![sparkify_dag](https://github.com/ohjang121/project_five_data_pipeline/blob/main/sparkify_dag.png)
+
+### Dags
 
 `sparkify_dag.py`: defines Sparkify data pipeline DAG with relevant tasks and dependencies. Exists in the `dags` directory within the main `airflow` directory.
 
